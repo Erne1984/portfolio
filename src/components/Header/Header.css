@@ -1,0 +1,52 @@
+header {
+    background-color: #262626;
+}
+
+.header-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0.5rem;
+    max-width: var(--max-width-desktop);
+    margin: 0 auto;
+    transition: 200ms;
+}
+
+.header-box h3 {
+    letter-spacing: 2px;
+}
+
+.header-menu {
+    display: flex;
+    gap: 50px;
+}
+
+.header-menu .list-item {
+    transition: 250ms;
+}
+
+.header-menu .list-item:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.selected {
+    font-weight: bold;
+    border-bottom: 2px solid #FF4D5A;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+@media only screen and (max-width: 700px) {
+    .header-menu {
+        display: none;
+    }
+
+    .mobile-menu{
+        display: block;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+}
