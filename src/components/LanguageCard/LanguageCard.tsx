@@ -1,12 +1,12 @@
 import './LanguageCard.css';
 
 
-interface LanguageCard{
+interface LanguageCardProps{
     toolImgUrl: string,
     toolName: string,
 }
 
-export default function LanguageCard(props: LanguageCard){
+export default function LanguageCard(props: LanguageCardProps){
 
     return(
         <div className='card-tool'>
