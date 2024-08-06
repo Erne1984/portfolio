@@ -1,0 +1,18 @@
+button {
+    width: 234px;
+    height: 41px;
+    border: 1px solid #FF4D5A;
+    cursor: pointer;
+    background: none;
+    color: #FF4D5A;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    transition: all 250ms;
+}
+
+button:hover{
+    transform: translateY(-2px);
+    background-color:#FF4D5A;
+    color: #fff;
+}

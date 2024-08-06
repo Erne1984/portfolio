@@ -1,5 +1,8 @@
 .hero-container {
-    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
     margin: 0 auto;
     max-width: var(--max-width-desktop);
 }
@@ -10,9 +13,13 @@
 
 .hero-container .sub-title{
     font-size: 2rem;
-    margin-top: -1.5rem;
+    margin-top: -1.3rem;
     color: #FF4D5A;
     text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+.btn-box{
+    margin-top: 46px;
 }
 
 /* Animations */

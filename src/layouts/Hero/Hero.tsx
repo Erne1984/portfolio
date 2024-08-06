@@ -1,5 +1,4 @@
 import './Hero.css';
-import React from 'react';
 import ButtonPrimary from '../../components/Button-Primary/ButtonPrimary';
 
 export default function Hero() {
@@ -8,7 +7,9 @@ export default function Hero() {
             <h1 className='title-name'>Ernesto Amorim</h1>
             <p className="typing sub-title">Desenvolvedor Web</p>
             
-            <ButtonPrimary />
+            <div className='btn-box'>
+                <ButtonPrimary/>
+            </div>
         </div>
     );
 }
