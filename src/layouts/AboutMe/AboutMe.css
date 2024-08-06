@@ -1,0 +1,48 @@
+.about-me-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: var(--max-width-desktop);
+}
+
+.about-me-container .section-title{
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0 3.7rem 0;
+}
+
+.about-me-container .section-title h1 {
+    font-size: var(--h1-font-size);
+    border-bottom: 3px solid #FF4D5A;
+    width: fit-content;
+}
+
+.about-me-container article{
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-me-container article h2{
+    font-size: 1.8rem;
+    padding-bottom: 1.32rem;
+}
+
+.about-me-container article .left-column{
+    max-width: 385px;
+}
+
+.about-me-container article .left-column p{
+    text-align: justify;
+}
+
+.about-me-container article .left-column p:first-of-type{
+    padding-bottom: 1.32rem;
+}
+
+.about-me-container article .right-column .tools-container{
+    display: grid;
+    grid-template-columns: repeat(3, 120px);
+    gap: 30px;
+}

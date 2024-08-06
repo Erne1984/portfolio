@@ -8,7 +8,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.5rem 0.5rem;
+    padding: 1.5rem var(--padding-desktop-sides);
     max-width: var(--max-width-desktop);
     margin: 0 auto;
     transition: 200ms;
