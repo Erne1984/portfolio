@@ -1,4 +1,4 @@
-import './Hero.css';
+import './HeroSection.css';
 import ButtonPrimary from '../../components/Button-Primary/ButtonPrimary';
 
 export default function Hero() {

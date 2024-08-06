@@ -1,8 +1,8 @@
 import './App.css'
 import Header from './components/Header/Header'
 
-import Hero from './layouts/Hero/Hero'
-import AboutMe from './layouts/AboutMe/AboutMe';
+import Hero from './layouts/HeroSection/HeroSection'
+import AboutMe from './layouts/AboutMeSection/AboutMeSection';
 
 function App() {
 

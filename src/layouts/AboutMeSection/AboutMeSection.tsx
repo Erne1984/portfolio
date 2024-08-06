@@ -1,4 +1,4 @@
-import './AboutMe.css';
+import './AboutMeSection.css';
 
 import LanguageCard from '../../components/LanguageCard/LanguageCard';
 
@@ -7,39 +7,39 @@ export default function AboutMe() {
     const myTools = [
         {
             name: "HTML",
-            urlImg: "/public/assets/HTML.svg"
+            urlImg: "/assets/HTML.svg"
         },
         {
             name: "CSS",
-            urlImg: "/public/assets/CSS.svg"
+            urlImg: "/assets/CSS.svg"
         },
         {
             name: "Javascript",
-            urlImg: "/public/assets/JS.svg"
+            urlImg: "/assets/JS.svg"
         },
         {
             name: "React",
-            urlImg: "/public/assets/REACT.svg"
+            urlImg: "/assets/REACT.svg"
         },
         {
             name: "NodeJS",
-            urlImg: "/public/assets/NODEJS.svg"
+            urlImg: "/assets/NODEJS.svg"
         },
         {
             name: "MYSQL",
-            urlImg: "/public/assets/MYSQL.svg"
+            urlImg: "/assets/MYSQL.svg"
         },
         {
             name: "MongoDB",
-            urlImg: "/public/assets/MONGODB.svg"
+            urlImg: "/assets/MONGODB.svg"
         },
         {
             name: "Express",
-            urlImg: "/public/assets/EXPRESS.svg"
+            urlImg: "/assets/EXPRESS.svg"
         },
         {
             name: "GIT",
-            urlImg: "/public/assets/GIT.svg"
+            urlImg: "/assets/GIT.svg"
         },
     ]
 
