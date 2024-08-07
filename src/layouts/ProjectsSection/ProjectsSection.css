@@ -1,4 +1,11 @@
 .carousel-projects {
+    display: flex;
+    flex-direction: column;
     width: var(--max-width-desktop);
+    height: 70vh;
+    margin: 0 auto;
+}
+
+.carousel-projects .github-graph{
     margin: 0 auto;
 }
