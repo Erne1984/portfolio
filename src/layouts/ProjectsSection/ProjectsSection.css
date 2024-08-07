@@ -1,0 +1,14 @@
+.project-section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 auto;
+    max-width: var(--max-width-desktop);
+}
+
+.project-section-container .projects-cards{
+    padding-top: 100px;
+    height: 70vh;
+}
