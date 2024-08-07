@@ -46,10 +46,6 @@ export default function AboutMe() {
     return (
         <section className='about-me-container'>
 
-            <div className='section-title'>
-                <h1>Sobre Mim</h1>
-            </div>
-
             <article>
 
                 <div className='left-column'>

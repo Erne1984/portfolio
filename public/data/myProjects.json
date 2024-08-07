@@ -1,0 +1,23 @@
+[
+    {
+        "projectTitle": "Global Explorer1",
+        "projectDescri": "Aplicação desenvolvida em React que lista todos os países do mundo com várias informações a respeito de cada um. É um desafio do site Frontend Mentor.",
+        "projectPrintUrl": "/assets/projectsPrints/globalExplorer.png",
+        "repoUrl": "https//:google.com",
+        "previewUrl": "htteps"
+    },
+    {
+        "projectTitle": "Global Explorer2",
+        "projectDescri": "Aplicação desenvolvida em React que lista todos os países do mundo com várias informações a respeito de cada um. É um desafio do site Frontend Mentor.",
+        "projectPrintUrl": "/assets/projectsPrints/globalExplorer.png",
+        "repoUrl": "https//:google.com",
+        "previewUrl": "htteps"
+    },
+    {
+        "projectTitle": "Global Explorer3",
+        "projectDescri": "Aplicação desenvolvida em React que lista todos os países do mundo com várias informações a respeito de cada um. É um desafio do site Frontend Mentor.",
+        "projectPrintUrl": "/assets/projectsPrints/globalExplorer.png",
+        "repoUrl": "https//:google.com",
+        "previewUrl": "htteps"
+    }
+]

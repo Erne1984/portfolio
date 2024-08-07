@@ -5,6 +5,8 @@ import Hero from './layouts/HeroSection/HeroSection'
 import AboutMe from './layouts/AboutMeSection/AboutMeSection';
 import ProjectsSection from './layouts/ProjectsSection/ProjectsSection';
 
+import TitleSection from './components/TitleSection/TitleSection';
+
 function App() {
 
   return (
@@ -13,8 +15,14 @@ function App() {
       <Header/>
 
       <Hero/>
+
+      <TitleSection title='Sobre Mim'/>
       <AboutMe/>
+
+      <TitleSection title='Projetos'/>
       <ProjectsSection/>
+
+      <TitleSection title='Contato'/>
 
     </>
   )
