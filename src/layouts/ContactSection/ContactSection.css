@@ -1,7 +1,39 @@
-.contact-section{
+.contact-section {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     margin: 0 auto;
     max-width: var(--max-width-desktop);
+}
+
+.contact-info-container h3 {
+    color: #FF4D5A;
+}
+
+.contact-info-container .email-for-contact {
+    font-size: 16px;
+    margin-bottom: 59px;
+}
+
+.box-redes{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.box-rede{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.icons {
+    transition: transform  250ms;
+    width: 40px;
+    height: 40px;
+}
+
+.icons:hover{
+    filter: invert(48%) sepia(30%) saturate(7209%) hue-rotate(328deg) brightness(103%) contrast(101%);
+    cursor: pointer;
+    transform: translateY(-5px);
 }

@@ -2,9 +2,9 @@ import './ContactForm.css';
 
 import ButtonPrimary from '../Button-Primary/ButtonPrimary';
 
-export default function ContactForm(){
+export default function ContactForm() {
 
-    return(
+    return (
         <form>
             <input type='text' className='input' placeholder='Nome'></input>
 
@@ -12,7 +12,10 @@ export default function ContactForm(){
 
             <textarea cols={30} rows={10} ></textarea>
 
-            <ButtonPrimary btnText='Enviar'/>
+            <div className='btn-contact-box'>
+                <ButtonPrimary btnText='Enviar' />
+            </div>
+
         </form>
     )
 }

@@ -2,7 +2,7 @@ form{
     display: flex;
     flex-direction: column;
     gap: 35px;
-    max-width: 460px;
+    width: 460px;
 }
 
 .input {
@@ -35,4 +35,8 @@ textarea {
 
 textarea:focus {
     box-shadow: rgb(255, 77, 90) 0px 0px 6px;
+}
+
+.btn-contact-box{
+    margin: 0 auto;
 }
