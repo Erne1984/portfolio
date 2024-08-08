@@ -1,5 +1,5 @@
 import './ProjectsCarousel.css';
-import cards from "../../../public/data/myProjects.json";
+import cards from "../../assets/data/myProjects.json";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
 
 
