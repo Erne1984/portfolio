@@ -10,7 +10,7 @@ export default function ContactForm() {
 
             <input type='text' className='input' placeholder='Email'></input>
 
-            <textarea cols={30} rows={10} ></textarea>
+            <textarea placeholder='Sua Mensagem...' cols={30} rows={10} ></textarea>
 
             <div className='btn-contact-box'>
                 <ButtonPrimary btnText='Enviar' />
