@@ -56,3 +56,13 @@
         typing 2s steps(20, end),
         blink-caret .75s step-start infinite;
 }
+
+@media (max-width: 600px) {
+    .hero-container .title-name {
+        font-size: 2.6rem;
+    }
+
+    .hero-container .sub-title{
+        font-size: 1.3rem;
+    }
+}

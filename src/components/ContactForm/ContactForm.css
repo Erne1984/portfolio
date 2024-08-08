@@ -40,3 +40,25 @@ textarea:focus {
 .btn-contact-box{
     margin: 0 auto;
 }
+
+@media (max-width: 474px) {
+    form{
+        width: 380px;
+    }
+
+
+    input {
+        width: 400px;
+    }
+}
+
+@media (max-width: 400px) {
+    form{
+        width: 340px;
+    }
+
+
+    input {
+        width: 360px;
+    }
+}

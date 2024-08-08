@@ -5,7 +5,48 @@
     margin: 0 auto;
 }
 
-.carousel-projects .github-graph{
+.carousel-projects .github-graph {
     margin: 0 auto;
     padding-bottom: 4rem;
+}
+
+
+@media (max-width: 1250px) {
+    .carousel-projects {
+        width: 1000px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 1034px) {
+    .carousel-projects {
+        width: 800px;
+        padding-bottom: 20px;
+    }
+
+    .github-graph{
+        display: none;
+    }
+}
+
+@media (max-width: 834px) {
+    .carousel-projects {
+        width: 400px;
+        padding-bottom: 20px;
+    }
+
+    .github-graph{
+        display: none;
+    }
+}
+
+@media (max-width: 634px) {
+    .carousel-projects {
+        width: 300px;
+        padding-bottom: 20px;
+    }
+
+    .github-graph{
+        display: none;
+    }
 }

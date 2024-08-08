@@ -9,3 +9,9 @@
     border-bottom: 3px solid #FF4D5A;
     width: fit-content;
 }
+
+@media (max-width: 600px) {
+    .section-title h1 {
+        font-size: 3rem;
+    }
+}

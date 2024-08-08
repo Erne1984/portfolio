@@ -1,5 +1,8 @@
 .card-wrapper {
     perspective: 1000px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 .card-project {
@@ -7,11 +10,11 @@
     flex-direction: column;
     align-items: center;
     max-width: 379px;
-    height: 379px;
-    padding: 25px 12px 10px 12px;
+    height: fit-content;
+    padding: 25px 12px;
     border-radius: 5px;
     border: 2px solid #FF4D5A;
-    transition: transform 0.8s;
+    transition: transform 0.8s, max-width 0.3s, height 0.3s; 
     transform-style: preserve-3d; 
     position: relative;
 }
@@ -32,7 +35,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 25px 12px 10px 12px;
+    padding: 25px 12px 25px 12px;
     background: none;
     border-radius: 5px;
 }
@@ -48,7 +51,7 @@
 .card-project img {
     height: 170px;
     width: 270px;
-    transition: transform 0.3s;
+    transition: transform 0.3s, width 0.3s, height 0.3s; 
 }
 
 .card-project h3 {
@@ -56,6 +59,7 @@
 }
 
 .card-project p {
+    font-size: 13px;
     text-align: center;
 }
 
@@ -68,4 +72,20 @@
 
 .card-back a:hover {
     text-decoration: underline;
+}
+
+@media (max-width: 1250px) {
+    .card-project {
+        max-width: 300px;
+        height: fit-content;
+    }
+
+    .card-project img {
+        width: 230px;
+        height: 140px;
+    }
+
+    .card-back a {
+        font-size: 14px;
+    }
 }

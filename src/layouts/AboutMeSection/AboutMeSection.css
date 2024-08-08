@@ -53,3 +53,11 @@
     }
 
 }
+
+@media only screen and (max-width: 600px) {
+
+    .about-me-container article .right-column .tools-container{
+        grid-template-columns: repeat(3, 100px);
+    }
+
+}

@@ -38,3 +38,11 @@
     cursor: pointer;
     transform: translateY(-5px);
 }
+
+@media (max-width: 800px) {
+    .contact-section {
+        flex-direction: column;
+        align-items: center;
+        gap: 6rem;
+    }
+}
