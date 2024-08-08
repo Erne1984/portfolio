@@ -1,10 +1,14 @@
-import './ButtonPrimary.css'
+import './ButtonPrimary.css';
 
-export default function ButtonPrimary(){
+interface ButtonPrimaryProps {
+    btnText: string
+}
 
-    return(
+export default function ButtonPrimary( props: ButtonPrimaryProps) {
+
+    return (
         <button>
-            Contato
+            { props.btnText }
         </button>
     )
 }

@@ -4,6 +4,7 @@ import Header from './components/Header/Header'
 import Hero from './layouts/HeroSection/HeroSection'
 import AboutMe from './layouts/AboutMeSection/AboutMeSection';
 import ProjectsSection from './layouts/ProjectsSection/ProjectsSection';
+import ContactSection from './layouts/ContactSection/ContactSection';
 
 import TitleSection from './components/TitleSection/TitleSection';
 
@@ -23,6 +24,7 @@ function App() {
       <ProjectsSection/>
 
       <TitleSection title='Contato'/>
+      <ContactSection/>
 
     </>
   )

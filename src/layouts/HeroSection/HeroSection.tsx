@@ -8,7 +8,7 @@ export default function Hero() {
             <p className="typing sub-title">Desenvolvedor Web</p>
             
             <div className='btn-box'>
-                <ButtonPrimary/>
+                <ButtonPrimary btnText='Contato'/>
             </div>
         </div>
     );
