@@ -10,27 +10,25 @@ import Footer from './layouts/Footer/Footer';
 import TitleSection from './components/TitleSection/TitleSection';
 
 function App() {
-
   return (
     <>
-
       <Header/>
 
-      <Hero/>
+      <Hero id="home"/>
 
-      <TitleSection title='Sobre Mim'/>
-      <AboutMe/>
+      <TitleSection  id="about"title='Sobre Mim'/>
+      <AboutMe />
 
-      <TitleSection title='Projetos'/>
-      <ProjectsSection/>
+      <TitleSection id="projects" title='Projetos'/>
+      <ProjectsSection />
 
-      <TitleSection title='Contato'/>
-      <ContactSection/>
+      <TitleSection id="contact" title='Contato'/>
+      <ContactSection />
 
       <Footer/>
-
     </>
   )
 }
+
 
 export default App

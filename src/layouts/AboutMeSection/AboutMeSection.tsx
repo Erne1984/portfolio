@@ -66,7 +66,7 @@ export default function AboutMe() {
 
                         {myTools && myTools.map((tool) => {
                             return (
-                                <LanguageCard toolImgUrl={tool.urlImg} toolName={tool.name} />
+                                <LanguageCard key={tool.name} toolImgUrl={tool.urlImg} toolName={tool.name} />
                             )
                         })}
 

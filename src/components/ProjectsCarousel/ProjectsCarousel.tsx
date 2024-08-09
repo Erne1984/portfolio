@@ -47,6 +47,7 @@ export default function ProjectsCarousel() {
 
                     return (
                         <ProjectCard
+                            key={card.projectTitle}
                             projectDescri={card.projectDescri}
                             projectPrintUrl={card.projectPrintUrl}
                             projectTitle={card.projectTitle}

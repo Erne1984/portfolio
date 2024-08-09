@@ -1,9 +1,13 @@
 import './HeroSection.css';
 import ButtonPrimary from '../../components/Button-Primary/ButtonPrimary';
 
-export default function Hero() {
+interface HeroProps {
+    id: string
+}
+
+export default function Hero( props: HeroProps) {
     return (
-        <div className="hero-container">
+        <div className="hero-container" id={props.id}>
             <h1 className='title-name'>Ernesto Amorim</h1>
             <p className="typing sub-title">Desenvolvedor Web</p>
             
