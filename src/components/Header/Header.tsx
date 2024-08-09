@@ -2,14 +2,15 @@ import { useState, useEffect } from 'react';
 import './Header.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
+import NavMobile from '../NavMobile/NavMobile';
 
 export default function Header() {
-    const [mobileMenu, setMobileMenu] = useState(false);
-    const [activeSection, setActiveSection] = useState('home');
+    const [mobileMenu, setMobileMenu] = useState<boolean>(false);
+    const [activeSection, setActiveSection] = useState<string>('home');
 
-    const sections = ['home', 'about', 'projects', 'contact'];
+    const sections: string[] = ['home', 'about', 'projects', 'contact'];
 
-    const handleScroll = () => {
+    const handleScroll = (): void => {
         const scrollPosition = window.scrollY + window.innerHeight / 2;
 
         let currentSection = activeSection;
@@ -35,10 +36,11 @@ export default function Header() {
         };
     }, [activeSection]);
 
-    const scrollToSection = (id: string) => {
+    const scrollToSection = (id: string): void => {
         const section = document.getElementById(id);
         if (section) {
             section.scrollIntoView({ behavior: 'smooth' });
+            setMobileMenu(false); 
         }
     };
 
@@ -54,6 +56,8 @@ export default function Header() {
                 </nav>
                 <FontAwesomeIcon className='mobile-menu' icon={faBars} onClick={() => setMobileMenu(!mobileMenu)} />
             </div>
+
+            {mobileMenu && <NavMobile scrollToSection={scrollToSection} />}
         </header>
     );
 }
