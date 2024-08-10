@@ -49,10 +49,10 @@ export default function Header() {
             <div className='header-box'>
                 <h2>Ernesto Amorim</h2>
                 <nav className='header-menu'>
-                    <span className={`list-item ${activeSection === 'home' ? 'selected' : ''}`} onClick={() => scrollToSection('home')}>Home</span>
-                    <span className={`list-item ${activeSection === 'about' ? 'selected' : ''}`} onClick={() => scrollToSection('about')}>About</span>
-                    <span className={`list-item ${activeSection === 'projects' ? 'selected' : ''}`} onClick={() => scrollToSection('projects')}>Projects</span>
-                    <span className={`list-item ${activeSection === 'contact' ? 'selected' : ''}`} onClick={() => scrollToSection('contact')}>Contact</span>
+                    <span className={`list-item ${activeSection === 'home' ? 'selected' : ''}`} onClick={() => scrollToSection('home')}>Início</span>
+                    <span className={`list-item ${activeSection === 'about' ? 'selected' : ''}`} onClick={() => scrollToSection('about')}>Sobre Mim</span>
+                    <span className={`list-item ${activeSection === 'projects' ? 'selected' : ''}`} onClick={() => scrollToSection('projects')}>Projetos</span>
+                    <span className={`list-item ${activeSection === 'contact' ? 'selected' : ''}`} onClick={() => scrollToSection('contact')}>Contato</span>
                 </nav>
                 <FontAwesomeIcon className='mobile-menu' icon={faBars} onClick={() => setMobileMenu(!mobileMenu)} />
             </div>

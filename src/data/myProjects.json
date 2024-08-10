@@ -1,23 +1,37 @@
 [
     {
-        "projectTitle": "Global Explorer1",
+        "projectTitle": "Global Explorer",
         "projectDescri": "Aplicação desenvolvida em React que lista todos os países do mundo com várias informações a respeito de cada um. É um desafio do site Frontend Mentor.",
         "projectPrintUrl": "/assets/projectsPrints/globalExplorer.png",
-        "repoUrl": "https//:google.com",
-        "previewUrl": "htteps"
+        "repoUrl": "https://github.com/Erne1984/GlobalExplorer",
+        "previewUrl": "https://global-explorer-flax.vercel.app"
     },
     {
-        "projectTitle": "Global Explorer2",
-        "projectDescri": "Aplicação desenvolvida em React que lista todos os países do mundo com várias informações a respeito de cada um. É um desafio do site Frontend Mentor.",
-        "projectPrintUrl": "/assets/projectsPrints/globalExplorer.png",
-        "repoUrl": "https//:google.com",
-        "previewUrl": "htteps"
+        "projectTitle": "Jogo da Velha",
+        "projectDescri": "Implementação simples do jogo da velha, utilizando html, css e javascript.",
+        "projectPrintUrl": "/assets/projectsPrints/tic-tac-toe.jpg",
+        "repoUrl": "https://github.com/Erne1984/Tic-Tac-Toe",
+        "previewUrl": "https://tic-tac-toe-orpin-xi.vercel.app"
     },
     {
-        "projectTitle": "Global Explorer3",
-        "projectDescri": "Aplicação desenvolvida em React que lista todos os países do mundo com várias informações a respeito de cada um. É um desafio do site Frontend Mentor.",
-        "projectPrintUrl": "/assets/projectsPrints/globalExplorer.png",
-        "repoUrl": "https//:google.com",
-        "previewUrl": "htteps"
+        "projectTitle": "Lista de Tarefas",
+        "projectDescri": "Aplicativo de lista de tarefas simples que permite aos usuários organizar suas tarefas em projetos e utiliza o armazenamento local para salvar os dados.",
+        "projectPrintUrl": "/assets/projectsPrints/toDoList.jpg",
+        "repoUrl": "https://github.com/Erne1984/to-do-list",
+        "previewUrl": "https://to-do-list-seven-brown.vercel.app"
+    },
+    {
+        "projectTitle": "Previsão do Tempo",
+        "projectDescri": "Aplicativo de previsão do tempo onde o usuário pode inserir uma cidade para receber dados acerca a atual previsão do tempo com uso da API do OpenWeather",
+        "projectPrintUrl": "/assets/projectsPrints/weather Forecast.jpg",
+        "repoUrl": "https://github.com/Erne1984/weather-forecast-app?tab=readme-ov-file",
+        "previewUrl": "https://weather-forecast-app-kappa-gold.vercel.app"
+    },
+    {
+        "projectTitle": "Pedra, Papel e Tesoura",
+        "projectDescri": "Implementação simples do jogo pedra, papel e tesoura, utilizando html, css e javascript.",
+        "projectPrintUrl": "/assets/projectsPrints/pedra-papel-tesoura.jpg",
+        "repoUrl": "https://github.com/Erne1984/pedra-papel-tesoura",
+        "previewUrl": "https://pedra-papel-tesoura-liard.vercel.app"
     }
 ]

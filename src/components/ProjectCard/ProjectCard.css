@@ -10,6 +10,7 @@
     flex-direction: column;
     align-items: center;
     max-width: 379px;
+    min-height: 334px;
     height: fit-content;
     padding: 25px 12px;
     border-radius: 5px;
@@ -59,7 +60,7 @@
 }
 
 .card-project p {
-    font-size: 13px;
+    font-size: 12px;
     text-align: center;
 }
 
