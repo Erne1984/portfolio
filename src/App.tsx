@@ -10,25 +10,31 @@ import Footer from './layouts/Footer/Footer';
 import TitleSection from './components/TitleSection/TitleSection';
 
 function App() {
+  const scrollToSection = (id: string) => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <>
-      <Header/>
+      <Header />
 
-      <Hero id="home"/>
+      <Hero id="home" scrollToSection={scrollToSection} />
 
-      <TitleSection  id="about"title='Sobre Mim'/>
+      <TitleSection id="about" title='Sobre Mim' />
       <AboutMe />
 
-      <TitleSection id="projects" title='Projetos'/>
+      <TitleSection id="projects" title='Projetos' />
       <ProjectsSection />
 
-      <TitleSection id="contact" title='Contato'/>
+      <TitleSection id="contact" title='Contato' />
       <ContactSection />
 
-      <Footer/>
+      <Footer />
     </>
   )
 }
 
-
-export default App
+export default App;
