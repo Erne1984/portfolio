@@ -9,7 +9,7 @@
 
 # Descrição
 
-Aplicação criada para mostrar os projetos que que desenvolvi.
+Aplicação criada para mostrar os projetos que desenvolvi durante meus estudos.
 
 
 # Como Executar
