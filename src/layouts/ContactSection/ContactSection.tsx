@@ -25,12 +25,12 @@ export default function ContactSection() {
                 <div className='box-redes'>
 
                     <div className='box-rede'>
-                        <img className='icons' src={githubLogo}></img>
+                        <a href='https://github.com/Erne1984'><img className='icons' src={githubLogo}></img></a>
                         <div className='link-path'>/Erne1984</div>
                     </div>
 
                     <div className='box-rede'>
-                        <img className='icons' src={linkedinLogo}></img>
+                        <a href="https://www.linkedin.com/in/ernesto-amorim/"><img className='icons' src={linkedinLogo}></img></a>
                         <div className='link-path'>/ernesto-amorim</div>
                     </div>
 
