@@ -5,7 +5,7 @@ interface ProjectCardProps {
     projectDescri: string,
     projectPrintUrl: string,
     repoUrl: string,
-    previewUrl: string
+    previewUrl?: string
 }
 
 export default function ProjectCard(props: ProjectCardProps) {
