@@ -1,5 +1,17 @@
 [
     {
+        "projectTitle": "MyBookShelf",
+        "projectDescri": "Plataforma de catalogação colaborativa de livros, permitindo aos usuários gerenciar listas de leitura, escrever e ler resenhas, interagir com outros leitores e acompanhar leituras atuais.",
+        "projectPrintUrl": "/assets/projectsPrints/MyBookShelf.png",
+        "repoUrl": "https://github.com/Erne1984/MyBookShelf"
+    },
+    {
+        "projectTitle": "RADAR",
+        "projectDescri": "Site voltado à busca de pessoas desaparecidas, com cadastro de informações, voluntários e atualizações colaborativas de localização.",
+        "projectPrintUrl": "/assets/projectsPrints/RADAR.png",
+        "repoUrl": "https://github.com/killatsignlife/client-radar/tree/feature/funcionario"
+    },
+    {
         "projectTitle": "Global Explorer",
         "projectDescri": "Aplicação desenvolvida em React que lista todos os países do mundo com várias informações a respeito de cada um. É um desafio do site Frontend Mentor.",
         "projectPrintUrl": "/assets/projectsPrints/globalExplorer.png",

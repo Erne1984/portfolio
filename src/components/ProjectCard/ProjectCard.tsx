@@ -19,9 +19,12 @@ export default function ProjectCard(props: ProjectCardProps) {
                 </div>
                 <div className="card-back">
                     <a href={props.repoUrl} target="_blank" rel="noopener noreferrer">Ver Repositório</a>
-                    <a href={props.previewUrl} target="_blank" rel="noopener noreferrer">Ver Preview</a>
+                    {props.previewUrl != null &&
+                        <a href={props.previewUrl} target="_blank" rel="noopener noreferrer">Ver Preview</a>
+                    }
+
                 </div>
             </div>
-        </div>
+        </div >
     );
 }
